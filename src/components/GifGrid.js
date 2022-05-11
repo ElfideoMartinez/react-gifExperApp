@@ -5,7 +5,7 @@ import { GifGridItem } from './GifGridItem';
 export const GifGrid = ({categorie}) => {
 
     const {data:images,loading}=useFetchGifs({categorie});
-    
+    //ading coments to commit
     
   return (
     <>
